@@ -1,0 +1,44 @@
+{% extends 'base.html.twig' %}
+
+
+{% block body %}
+<div class="main-body">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-4">
+                <div class="left-col">
+                   <div class="left-title">
+                        <h2>Last news</h2>
+                   </div>
+                    <div class="left-body" >
+                        <p>Enter Start Date: <input type = "text" id = "from" name="from" required></p>
+                        <p>Enter End Date: <input type = "text" id = "to" name="to"></p>
+                        <button id="submit">Submit</button>
+                    </div>
+                    <div id="rss-left">
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-8">
+            <div class="main-rss" id="rss-feeds">
+               
+            </div>
+                <div class="main-body">
+                    <div class="row">
+                        <div class="col-12 col-lg-6 col-md-6">
+                            <div class="main-title">
+                                <h2>Hot News</h2>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 col-md-6">
+                            <div class="main-title">
+                                <h2>Readable news </h2>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

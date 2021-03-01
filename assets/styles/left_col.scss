@@ -1,0 +1,18 @@
+.left-col{
+    min-height: calc(10vh - 70px);
+    font-family: "Merriweather",serif;
+    @media screen and(min-width:991px) {
+        border-right: 5px solid #8B0000; 
+    }
+    
+    .left-title{
+        text-align:center;
+    @media screen and(max-width:767px) {
+            border-bottom: 5px solid #8B0000;    
+        }
+    }
+    .left-body{
+        margin-top:3%;
+        text-align:center;
+    }
+}
